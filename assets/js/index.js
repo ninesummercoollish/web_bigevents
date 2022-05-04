@@ -26,7 +26,7 @@ function getUserInfo() {
     success: function (res) {
       if (res.status !== 0) return layui.layer.msg(res.message)
       // 调用渲染方法
-      console.log(res)
+      // console.log(res)
       render(res.data)
     },
   })
