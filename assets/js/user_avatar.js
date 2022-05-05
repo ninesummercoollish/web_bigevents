@@ -58,8 +58,6 @@ $(function () {
         console.log(res)
         window.parent.getUserInfo()
       }
-
-
     })
   })
 })

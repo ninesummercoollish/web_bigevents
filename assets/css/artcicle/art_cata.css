@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f3f5;
+}
+
+body {
+  padding: 15px;
+}
+
+.layui-card-header {
+  /* float: ; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#formId,
+#formEdit {
+  padding: 20px 30px 0 0;
+}

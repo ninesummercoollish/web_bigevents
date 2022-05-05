@@ -55,7 +55,7 @@ $(function () {
       url: 'http://www.liulongbin.top:3007/api/login',
       data: $(this).serialize(),
       success: function (res) {
-        if (res.status !== 0) return layer.msg('res.message')
+        if (res.status !== 0) return layer.msg(res.message)
         layer.msg('登录成功')
         // console.log(res)
         // 将数据存储到本地中
